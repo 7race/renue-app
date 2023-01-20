@@ -1,0 +1,32 @@
+.app {
+  display: grid;
+  grid-template-areas:
+    'VendingMachineChangeMoney userMoney'
+    'vendingMachine vendingMachine';
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  padding: 20px;
+}
+
+.VendingMachineChangeMoney {
+  grid-area: VendingMachineChangeMoney;
+}
+
+.vendingMachine {
+  grid-area: vendingMachine;
+}
+
+.vendingMachine > div {
+  max-width: 100%;
+}
+
+.userMoney {
+  grid-area: userMoney;
+}
+
+@media (min-width: 800px) {
+  .app {
+    grid-template-areas: 'VendingMachineChangeMoney vendingMachine userMoney';
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

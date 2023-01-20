@@ -1,0 +1,1 @@
+export { SoldItems } from './SoldItems';

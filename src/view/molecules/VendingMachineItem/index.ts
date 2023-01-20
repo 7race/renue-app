@@ -1,0 +1,1 @@
+export { VendingMachineItem } from './VendingMachineItem';

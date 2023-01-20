@@ -1,0 +1,20 @@
+.userMoney {
+  display: grid;
+  grid-template-columns: minmax(70px, 150px);
+  grid-gap: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.container > p {
+  text-align: center;
+}
+
+.userMoney > div {
+  max-width: 100%;
+}

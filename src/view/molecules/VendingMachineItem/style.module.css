@@ -1,0 +1,15 @@
+.vendingMachineItem > img {
+  width: 100px;
+  height: 105px;
+}
+
+.vendingMachineItem > button {
+  width: 100%;
+}
+
+.vendingMachineItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}

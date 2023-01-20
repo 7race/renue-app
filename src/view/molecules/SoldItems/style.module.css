@@ -1,0 +1,12 @@
+.soldItems {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  padding: 0 40px;
+  flex-wrap: wrap;
+}
+
+.soldItem > img {
+  width: 100px;
+  height: 105px;
+}

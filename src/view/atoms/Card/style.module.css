@@ -1,0 +1,16 @@
+.card {
+  max-width: 100px;
+  height: 50px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card.primary {
+  background-color: aquamarine;
+}
+
+.card.secondary {
+  background-color: darkturquoise;
+}

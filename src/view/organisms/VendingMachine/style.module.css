@@ -1,0 +1,16 @@
+.vendingMachine {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  max-width: 500px;
+}
+
+.vendingMachine > p {
+  text-align: center;
+}
+
+@media (min-width: 420px) {
+  .vendingMachine {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

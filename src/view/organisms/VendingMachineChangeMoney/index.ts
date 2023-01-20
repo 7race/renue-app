@@ -1,0 +1,1 @@
+export { VendingMachineChangeMoney } from './VendingMachineChangeMoney';

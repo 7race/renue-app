@@ -1,0 +1,41 @@
+{
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "standard-with-typescript",
+    "plugin:react-hooks/recommended"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["prefer-arrow", "react-prefer-function-component"],
+  "rules": {
+    "@typescript-eslint/semi": "off",
+    "@typescript-eslint/member-delimiter-style": "off",
+    "no-console": "warn",
+    "@typescript-eslint/consistent-type-imports": "error",
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index",
+          "object",
+          "type"
+        ]
+      }
+    ],
+    "import/no-default-export": "error",
+    "arrow-body-style": ["warn", "as-needed"],
+    "react/prop-types": "error",
+    "prefer-arrow/prefer-arrow-functions": "error",
+    "react-prefer-function-component/react-prefer-function-component": "error",
+    "@typescript-eslint/triple-slash-reference": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "multiline-ternary": "off"
+  }
+}

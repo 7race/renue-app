@@ -1,0 +1,28 @@
+.button {
+  border-style: none;
+  padding: 16px 8px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.button:active {
+  transform: translateY(4px);
+}
+
+.button:disabled {
+  background-color: rgb(194, 187, 187);
+  pointer-events: none;
+}
+
+.button.primary {
+  background-color: rgb(127, 255, 138);
+}
+
+.button.secondary {
+  background-color: rgb(48, 222, 222);
+}
+
+.button.accept {
+  background-color: orange;
+}
